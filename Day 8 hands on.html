@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Day 8 style.css">
+        <title>ANIMI FORM</title>
+    </head>
+    <body>
+        <h1></h1>
+        <div>
+            <h3 id="heading"><img src="https://www.freeiconspng.com/thumbs/anime-png/anime-png-24.png">ANIMI-FORM<img src="https://www.freeiconspng.com/thumbs/anime-png/anime-png-24.png"></h3>
+        </div>
+        <form id="flex-container">
+            <div>
+                <label for="nameTextBox">ANIMI-NAME:</label><br>
+                <input type="text" id="nameTextBox">
+                <button></button>
+            </div>
+            <div>
+                <label for="countryTextBox">ANIMI-(ORIGIN-COUNTRY):</label><br>
+                <input list="countryTextBox">
+                <datalist id="countryTextBox">
+                    <option value="INDIA">INDIA</option>
+                    <option value="CHINA">CHINA</option>
+                    <option value="JAPAN">JAPAN</option>
+                    <option value="SOUTH KOREA">SOUTH KOREA</option>
+                </datalist>
+            </div>
+            <div>
+                <label for="noOfEpisodeTextBox">NUMBER OF EPISODES:</label><br>
+                <input type="text" id="noOfEpisodeTextBox">
+            </div>
+            <div>
+                <label for="yourRatingTextBox">YOUR RATING:</label><br>
+                <input type="text" id="yourRatingTextBox">
+                <button></button>
+            </div>
+            <div>
+                <label for="awardsTextBox">AWARDS:</label><br>
+                <input type="text" id="awardsTextBox">
+            </div>
+            <div>
+                <label for="descriptionTextBox">DESCRITION ABOUT THE ANIMI:</label><br>
+                <textarea id="descriptionTextBox" cols="20" rows="5"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="SUBMIT" id="submitButton">
+            </div>
+            
+        </form>
+    </body>
+</html>

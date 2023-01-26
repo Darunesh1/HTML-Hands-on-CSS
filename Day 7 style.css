@@ -1,0 +1,21 @@
+#titleName{
+    text-align:center;
+    background-color: aqua;
+    padding:10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#health1,#health2,#health3,#health4,#health5{
+    width: 350px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+
+#healthDescription1,#healthDescription2,#healthDescription3,#healthDescription4,#healthDescription5{
+    margin-top:70px;
+}
+#healthParagraph1,#healthParagraph2,#healthParagraph3,#healthParagraph4,#healthParagraph5{
+    color:black;
+}
