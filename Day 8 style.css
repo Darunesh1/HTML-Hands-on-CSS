@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
+    color:black;
   }
 #flex-container{
     display:flex;
@@ -30,10 +31,7 @@ div{
     padding-top: 10px;
     font-size: 30px;
 }
-body{
-    background-color:rgb(0, 0, 0);
-    color:azure
-}
+
 h3 >img{
     height: 40px;
     width: 40px;
