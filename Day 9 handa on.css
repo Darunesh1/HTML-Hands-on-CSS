@@ -1,0 +1,37 @@
+#flexcontainer{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+#3dImage{
+    width: 200px;
+    height: 200px;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/186462.jpg");
+    width:100%;
+    height: 100%;
+    text-align: center;
+}
+form{
+    width:400px;
+    border: 1px white;
+    border-radius: 10px;
+}
+#submit{
+    background-color: rgb(96, 96, 211);
+    color:white;
+    border: 1px white;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 2px 2px;
+}
+#flex1{
+    flex:35%;
+}
+#flex2{
+    flex:65%;
+    background-color: antiquewhite;
+}
+#3dImage{
+    margin-top: 0%;
+}

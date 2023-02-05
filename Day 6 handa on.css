@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    color: white;
+    background-image: url('https://media.wired.com/photos/5955ceabcbd9b77a41915cf6/master/pass/marvel-characters.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main{
+    background-color: #000000a8;
+    width:85% ;
+    height:75%;
+    position: fixed;
+    margin-top: 65px;
+    margin-left: 100px;
+}
+#flex-containermain{
+    display: flex;
+    flex-direction: row;
+
+}
+#flex-container1{
+    display:flex;
+    flex-wrap: wrap;
+}
+p{
+    background-color: red;
+    color:white;
+    margin-top: 0px;
+}
+#flex-container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+#TitleName{
+    color:white;
+    background-color: rgb(172, 44, 44);
+    margin-top: 0%;
+}
+#superHeros1,#superHeros2,#superHeros3,#superVillain1,#superVillain2,#superVillain3{
+    border: 3px solid white;
+}

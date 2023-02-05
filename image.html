@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body{
+                background-color: steelblue;
+            }
+            #images{
+                margin-left: 35%;
+                margin-top:20px;
+            }
+            #title{
+                text-align:center;
+                margin-top: 80px;
+            }
+        </style>
+        <title>Image Map</title>
+    </head>
+    <body>
+        <h1 id="title">Image Map</h1>
+        <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg" id="images" usemap="#workimage" width="400px" height="300px">
+        <map name="workimage">
+            <area coords="35,44,270,380" href="https://en.wikipedia.org/wiki/Peafowl">
+        </map>
+    </body>
+</html>

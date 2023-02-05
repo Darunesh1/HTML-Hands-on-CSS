@@ -1,0 +1,41 @@
+#dashBoard{
+    background-color:rgb(189, 235, 98);
+    display: flex;
+    justify-content: space-between;
+}
+#cartItems{
+    margin-right: 50px;
+}
+#icon{
+    margin-left: 50px;
+}
+#watches,#shoes,#jewels{
+    display:flex;
+    justify-content: space-evenly;
+}
+p{
+    flex: 50%;
+    margin-right: 0%;
+}
+input{
+    margin-top: 12px;
+    flex: 50%;
+    width: 50px;
+    height: 25px;
+}
+#product1,#product2,#product3,#product4{
+    display:flex;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(189, 235, 98);
+}
+#productFooterIcon{
+    margin-left: 50px;
+    margin-top:5px;
+}
+#productFooterAddress{
+    margin-right: 50px;
+    text-align:right;
+}
